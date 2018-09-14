@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.email       = ["qitar888@gmail.com"]
   s.homepage    = "https://github.com/qitar888/taiwan_bank_code"
   s.description = "A gem providing the select helper for all the banks and their representing code in Taiwan."
+  s.summary     = "A gem providing the select helper for all the banks and their representing code in Taiwan."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
