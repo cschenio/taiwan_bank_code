@@ -30,7 +30,7 @@ end
 # <option value="004 臺灣銀行">004 臺灣銀行</option>
 # <option value="005 臺灣土地銀行">005 臺灣土地銀行</option>
 # ...
-
+```
 ### Customized
 One is able to customize the name-value pair in the options by a following block.
 For example:
@@ -46,8 +46,8 @@ end
 where the data structure is:
 ``` json
 [
-  {"name": xxx, "code": 999},
-  ...
+  {"name": "xxx", "code": 999},
+  # ...
 ]
 ```
 
